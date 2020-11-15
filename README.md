@@ -1,6 +1,6 @@
 # POC_navigation
 
-##Built-in commands:
+## Built-in commands:
 
 npm start or yarn start
 Runs the app in development mode.
