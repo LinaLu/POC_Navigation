@@ -3,8 +3,9 @@ import { StackNavigationProp } from "@react-navigation/stack";
 import React from "react";
 import { Button, Text, View } from "react-native";
 import { Center } from "../../components/Center";
+import { RoutesParamList, RoutesNavProps } from "../../RoutesParamList";
 
-export function Billing({ navigation }: any) {
+export function Billing({ navigation }: RoutesNavProps<"Billing">) {
   const route = useRoute();
 
   return (

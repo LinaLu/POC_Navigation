@@ -8,28 +8,23 @@ import { View, Text, Button } from "react-native";
 import { Center } from "./components/Center";
 import { Account } from "./screens/Account";
 import { Billing } from "./screens/Billing";
-import { RoutesParamList } from "./RoutesParamList";
+import { RoutesParamList, RoutesNavProps } from "./RoutesParamList";
 
 interface RoutesProps {}
 const Stack = createStackNavigator<RoutesParamList>();
 
-function Home({
-  navigation,
-  route,
-}: {
-  navigation: StackNavigationProp<RoutesParamList, "Home">;
-  route: RouteProp<RoutesParamList, "Home">;
-}) {
+function Home({ navigation, route }: RoutesNavProps<"Home">) {
   return (
     <Center>
       <View
         style={{
-          height: 100,
+          height: 150,
           flexDirection: "column",
           justifyContent: "space-between",
         }}
       >
         <Text>Home screen here!</Text>
+        <Text> {`Current route: ${JSON.stringify(route)} `}</Text>
         <Button
           onPress={() => {
             navigation.navigate("Account");
