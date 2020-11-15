@@ -1,12 +1,5 @@
 import * as React from "react";
 import { Text, View } from "react-native";
+import { Routes } from "./Routes";
 
-const App: React.FC = () => {
-  return (
-    <View>
-      <Text>Poc using react native web</Text>
-    </View>
-  );
-};
-
-export default App;
+export default Routes;
