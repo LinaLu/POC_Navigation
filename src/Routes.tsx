@@ -3,16 +3,23 @@ import {
   createStackNavigator,
   StackNavigationProp,
 } from "@react-navigation/stack";
-import { NavigationContainer } from "@react-navigation/native";
+import { NavigationContainer, RouteProp } from "@react-navigation/native";
 import { View, Text, Button } from "react-native";
 import { Center } from "./components/Center";
 import { Account } from "./screens/Account";
 import { Billing } from "./screens/Billing";
+import { RoutesParamList } from "./RoutesParamList";
 
 interface RoutesProps {}
-const Stack = createStackNavigator();
+const Stack = createStackNavigator<RoutesParamList>();
 
-function Home({ navigation }: any) {
+function Home({
+  navigation,
+  route,
+}: {
+  navigation: StackNavigationProp<RoutesParamList, "Home">;
+  route: RouteProp<RoutesParamList, "Home">;
+}) {
   return (
     <Center>
       <View
@@ -44,10 +51,14 @@ export const Routes: React.FC<RoutesProps> = ({}) => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen
+          options={{ headerTitle: "React-native web navigation POC" }}
+          name="Home"
+          component={Home}
+        />
         <Stack.Screen
           name="Account"
-          options={{ headerTitle: "MyAccount" }}
+          options={{ header: () => null }}
           component={Account}
         />
         <Stack.Screen
