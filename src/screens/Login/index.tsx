@@ -1,13 +1,10 @@
 import React, { useContext } from "react";
-import { useNavigation, useRoute } from "@react-navigation/native";
-import { StackNavigationProp } from "@react-navigation/stack";
 import { Button, Text, View } from "react-native";
 import { Center } from "../../components/Center";
-import { RoutesParamList, RoutesNavProps } from "../../RoutesParamList";
+import { RoutesNavProps } from "../../RoutesParamList";
 import { AuthContext } from "../../contexts/Auth/AuthProvider";
 
-export function Login({ navigation }: RoutesNavProps<"Login">) {
-  const route = useRoute();
+export function Login({ navigation, route }: RoutesNavProps<"Login">) {
   const { login } = useContext(AuthContext);
   return (
     <>

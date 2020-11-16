@@ -1,18 +1,13 @@
-import { useNavigation, useRoute } from "@react-navigation/native";
-import { StackNavigationProp } from "@react-navigation/stack";
 import React from "react";
 import { Button, Text, View } from "react-native";
 import { Center } from "../../components/Center";
-import { RoutesParamList, RoutesNavProps } from "../../RoutesParamList";
+import { RoutesNavProps } from "../../RoutesParamList";
 
-export function Billing({ navigation }: RoutesNavProps<"Billing">) {
-  const route = useRoute();
-
+export function Billing({ navigation, route }: RoutesNavProps<"Billing">) {
   return (
     <Center>
       <Text>Billing screen here!</Text>
       <Text> {`Current route: ${JSON.stringify(route)} `}</Text>
-      {console.log("Billing Route:", route)}
       <View style={{ padding: 10 }}>
         <Button
           onPress={() => {

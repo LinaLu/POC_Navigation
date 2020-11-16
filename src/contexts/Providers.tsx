@@ -5,10 +5,10 @@ import { AuthProvider } from "./Auth/AuthProvider";
 
 interface ProvidersProps {}
 
-export const Providers: React.FC<ProvidersProps> = ({}) => {
+export const Providers: React.FC<ProvidersProps> = () => {
   return (
     <AuthProvider>
-      <Routes></Routes>
+      <Routes />
     </AuthProvider>
   );
 };
