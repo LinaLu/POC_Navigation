@@ -1,5 +1,3 @@
-import * as React from "react";
-import { Text, View } from "react-native";
-import { Routes } from "./Routes";
+import { Providers } from "./contexts/Providers";
 
-export default Routes;
+export default Providers;

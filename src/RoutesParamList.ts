@@ -5,6 +5,8 @@ export type RoutesParamList ={
     Home: undefined
     Account: undefined
     Billing: undefined
+    Login: undefined
+    Logout:undefined
 }
 
 export type RoutesNavProps<T extends keyof RoutesParamList> = {
