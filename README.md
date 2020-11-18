@@ -4,10 +4,12 @@ This is a POC showing that the library [react-navigation](https://reactnavigatio
 
 ## Built-in commands:
 
-yarn start
+```yarn start```
+
 Runs the app in development mode.
 Visit http://localhost:3000 in a browser.
 
-yarn run rn-ios
+```yarn run rn-ios```
+
 Builds the metro and launch the app on the ios simulator.
 Visit http://localhost:8081/debugger-ui/ for debugging.
