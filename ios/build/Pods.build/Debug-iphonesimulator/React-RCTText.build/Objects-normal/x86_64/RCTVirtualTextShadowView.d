@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/fy6963/project/PocNavigation/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.m \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Target\ Support\ Files/React-RCTText/React-RCTText-prefix.pch \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTVirtualTextShadowView.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTBaseTextShadowView.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTShadowView.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTLayout.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/yoga/Yoga.modulemap \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/Yoga/Yoga-umbrella.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React/React-Core.modulemap \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTRootView.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTTextAttributes.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTTextTransform.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTShadowView+Layout.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-Core/React/RCTRawTextShadowView.h

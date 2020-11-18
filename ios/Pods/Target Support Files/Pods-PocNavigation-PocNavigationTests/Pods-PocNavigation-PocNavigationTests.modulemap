@@ -1,0 +1,6 @@
+module Pods_PocNavigation_PocNavigationTests {
+  umbrella header "Pods-PocNavigation-PocNavigationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

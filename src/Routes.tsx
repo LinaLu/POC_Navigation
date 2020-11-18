@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { View, ActivityIndicator } from "react-native";
+import { View, ActivityIndicator, Text } from "react-native";
 import { Center } from "./components/Center";
 import AsyncStorage from "@react-native-community/async-storage";
 import { AuthContext } from "./contexts/Auth/AuthProvider";
@@ -30,19 +30,9 @@ export const Routes: React.FC<RoutesProps> = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  if (loading) {
-    return (
-      <Center>
-        <View style={{ paddingTop: 100 }}>
-          <ActivityIndicator size="large" />
-        </View>
-      </Center>
-    );
-  }
-
   const config = {
     screens: {
-      Home: "home",
+      Home: "",
       Account: "account",
       Billing: "billing",
       Logout: "logout",
@@ -55,7 +45,9 @@ export const Routes: React.FC<RoutesProps> = () => {
     config,
   };
 
-  return (
+  return loading ? (
+    <ActivityIndicator size="large" />
+  ) : (
     <NavigationContainer linking={linking}>
       {user ? <AuthStack></AuthStack> : <LoginStack></LoginStack>}
     </NavigationContainer>

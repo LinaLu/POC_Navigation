@@ -4,6 +4,7 @@ import React, { useState } from "react";
 type User = null | {
   username: string;
 };
+
 export const AuthContext = React.createContext<{
   user: User;
   login: () => void;

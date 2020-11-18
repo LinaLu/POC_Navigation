@@ -1,11 +1,24 @@
-import React from "react";
-import { View } from "react-native";
+import React, { ReactNode } from "react";
+import { Dimensions, View } from "react-native";
 interface CenterProps {}
 
-export const Center: React.FC<CenterProps> = ({ children }) => {
+type Props = {
+  children: ReactNode | ReactNode[];
+};
+
+export function Center({ children }: Props) {
   return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      {children}
+    <View
+      style={{
+        height: Dimensions.get("window").height,
+        width: Dimensions.get("window").width,
+        paddingTop: 20,
+        paddingBottom: 20,
+      }}
+    >
+      <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+        {children}
+      </View>
     </View>
   );
-};
+}

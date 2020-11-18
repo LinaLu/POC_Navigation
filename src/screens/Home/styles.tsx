@@ -1,9 +1,9 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   general: {
-    margin: 'auto',
-    width: '85%',
+    margin: "auto",
+    width: "85%",
   },
   gridTitle: {
     fontSize: 16,

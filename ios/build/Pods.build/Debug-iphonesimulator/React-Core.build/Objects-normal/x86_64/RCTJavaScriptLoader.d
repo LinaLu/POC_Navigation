@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/fy6963/project/PocNavigation/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Users/fy6963/project/PocNavigation/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/React-cxxreact/cxxreact/JSBundleType.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Folly/folly/Portability.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Folly/folly/CPortability.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/fy6963/project/PocNavigation/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTBridgeDelegate.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTFrameUpdate.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTInvalidating.h \
+  /Users/fy6963/project/PocNavigation/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTAnimationType.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTLog.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTPointerEvents.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Users/fy6963/project/PocNavigation/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/fy6963/project/PocNavigation/ios/Pods/Headers/Private/React-Core/React/RCTMultipartStreamReader.h \
+  /Users/fy6963/project/PocNavigation/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/fy6963/project/PocNavigation/node_modules/react-native/React/Base/RCTUtils.h
